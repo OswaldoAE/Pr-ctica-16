@@ -1,0 +1,121 @@
+body{
+    background-color: white ;
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+   
+}
+.among{
+        width: 300px;
+        height: 483px;
+        border-radius: 145px 188px 120px 20px;
+        border-width: 18px;
+        background-color: yellow;
+        border-style: solid;
+        margin-top: -30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;     
+}
+.mochila{
+    width: 122px;
+    height: 250px;
+    border-radius:30% 30% 5% 30%;
+    border-width: 18px;
+    background-color: #595454;
+    border-style: solid;
+    display: block;
+    margin-top: 1%;
+    margin-left: 33%;
+    margin-right: auto;
+    
+}
+.legiz{
+    width: 120px;
+    height: 210px;
+    border-radius:110px 140px;
+    border-width: 18px;
+    background-color: yellow;
+    border-style: solid;
+    margin-top: 120%;
+    display: block;
+    margin-left: -6%;
+    margin-right: auto;
+}
+.legrig{
+    width: 118px;
+    height: 210px;
+    border-radius:101px 140px;
+    border-width: 18px;
+    background-color: yellow;
+    border-style: solid;
+    margin-top: -85%;
+    display: block;
+    margin-left: auto;
+    margin-right: -2%;
+}
+.capa{
+    width: 300px;
+    height: 460px;
+    border-radius: 140px 188px 110px 20px;
+    border-width: -0;
+    background-color: yellow;
+    border-style: solid;
+    margin-top: -190%;
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;     
+}
+.capados{
+    width: 280px;
+    height: 445px;
+    border-radius: 40% 50% 50% 35%;
+    border-width: -0;
+    background-color: yellow;
+    border-style: solid;
+    margin-top: -162%;
+    display: block;
+    margin-left: auto;
+    margin-right: -1%;     
+}
+.lentes{
+    width: 210px;
+    height: 130px;
+    border-radius:105% 110% 160% 155%;
+    background-color: #dcdcea;
+    border-width: 18px;
+    border-style: solid;
+    margin-top: -130%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: -8%;
+}
+.sombra{
+    width: 190px;
+    height: 100px;
+    border-radius:105% 110% 160% 155%;
+    background-color: #cae8ed;
+    border-width: 0;
+    border-style: solid;
+    margin-top: -52.5%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: -3%;
+}
+.sombrados{
+    width: 80px;
+    height: 35px;
+    border-radius:110% 150% 160% 160%;
+    background-color: #ffffff;
+    border-width: 0;
+    border-style: solid;
+    transform: rotate(-5deg);
+    margin-top: -34%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 15%;
+}
