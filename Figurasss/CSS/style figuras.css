@@ -1,0 +1,52 @@
+/* Estilo para el círculo */
+.circulo {
+    width: 100px; /* Anchura del círculo */
+    height: 100px; /* Altura del círculo */
+    border-radius: 50%; /* Radio del borde para hacerlo un círculo */
+    background-color: rgb(255, 230, 0); /* Color de fondo del círculo */
+    border-style: solid; /* Estilo del borde */
+    margin-bottom: 10px; /* Margen inferior del círculo */
+    display: block; /* Hace que el círculo sea un elemento de bloque */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+
+/* Estilo para el rectángulo */
+.rectangulo {
+    width: 150px; /* Anchura del rectángulo */
+    height: 100px; /* Altura del rectángulo */
+    background-color: rgb(42, 165, 138); /* Color de fondo del rectángulo */
+    border-style: solid; /* Estilo del borde */
+    margin-bottom: 10px; /* Margen inferior del rectángulo */
+    display: block; /* Hace que el rectángulo sea un elemento de bloque */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+
+/* Estilo para el triángulo */
+.triangulo {
+    width: 0; /* Anchura del triángulo */
+    height: 0; /* Altura del triángulo */
+    border: 150px solid transparent; /* Borde transparente para crear el triángulo */
+    border-top: 0; /* Borde superior del triángulo */
+    border-bottom: 150px solid rgb(232, 6, 176); /* Borde inferior del triángulo */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+    display: block; /* Hace que el triángulo sea un elemento de bloque */
+}
+
+/* Estilo para el rombo */
+.rombo {
+    width: 150px; /* Anchura del rombo */
+    height: 150px; /* Altura del rombo */
+    background-color: rgb(86, 226, 43); /* Color de fondo del rombo */
+    position: relative; /* Posición relativa */
+    transform: rotate(45deg); /* Rotación de 45 grados */
+    margin-top: 50px; /* Margen superior del rombo */
+    margin-left: 40px; /* Margen izquierdo del rombo */
+    border-style: solid; /* Estilo del borde */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+    display: block; /* Hace que el rombo sea un elemento de bloque */
+}
+
