@@ -1,0 +1,20 @@
+<!DOCTYPE html> --DOCTYPE señala o indica el tipo de formato que se utilizará en esta práctica HTML--
+<html lang="es"> --define el lenguaje en el que estará definido el html "es" es español--
+<head> --Desde aquí comienza la estructura de el head o "cabeza" del html--
+    <meta charset="UTF-8"> --se define la versión del html--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> --se destinan medidas y se establece el contenido en la ventana de la pagina--
+    <title>Formulario de Registro</title> --Se inserta un titulo en la pestaña de la página--
+</head> --Se cierra el espacio o la sentencia para el head ya que se han hecho todos los cambios necesarios--
+<body> --Se comienza con el cuerpo de nuestra pagina es decir todos los componentes que tendrá nuestra pagina--
+    <h2>Registro de Información</h2> --Esta etiqueta genera un titulo en el cuerpo de la página que se mostrara al principio del todo--
+    <form action="procesar_formulario.php" method="POST"> --En esta etiqueta se especifica la acción para procesar información que sera inscrita en un formulario--
+        <label for="nombre">Nombre:</label><br> --La etiqueta label establece una caja de texto en donde se solicita un nombre propio--
+        <input type="text" id="nombre" name="nombre" required><br><br> --En esta entrada se espera la entrada de un texto con el debido nombre de la persona que esta contestando el presente formulario--
+        <label for="email">Correo Electrónico:</label><br> --De igual forma en esta etiqueta se solicita un correo el electronico del usuario que esta contestando el formulario--
+        <input type="email" id="email" name="email" required><br><br> --En esta entrada se espera la entrada del texto en formato de correo del usuario 
+        <label for="direccion">Dirección:</label><br> --Etiqueta que contiene el texto de "dirección:"--
+        <textarea id="direccion" name="direccion" required></textarea><br><br> --La etiqueta text área establece una entrada de caracteres más extensa para esperar la entrada de una dirección extensa con: calle, colonia, ciudad, codigo postal etc.
+        <input type="submit" value="Registrar"> --Por último se tiene una entrada de todos los datos anteriormente solicitados con un botón y la leyenda "Registrar" el cual procesa los datos introducidos--
+    </form> --Se concluye con la etiqueta formulario--
+</body> --De igual forma se concluye con la etiqueta del cuerpo de la página web--
+</html> --Y se concluye con el formato de la página web HTML--

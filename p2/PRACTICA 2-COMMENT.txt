@@ -1,0 +1,40 @@
+<!DOCTYPE html> --Se define el tipo de documento--
+<html lang="es"> --Se establece el idioma de la página--
+<head> --Se inicia la estructura de los elementos superiores de la página web--
+    <meta charset="UTF-8"> --Se define el tipo de documento HTML--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> Se establecen medidas de en las cuales los elementos se ubicarán--
+    <title>Muack</title> --Se pone un texto en la ventana de la página web--
+</head> --Se cierra la etiqueta head--
+<body> --Se incializa la etiqueta head--
+    <header> --Se inicializa la entrada de dos encabezados en la página--
+        <h1>Hola, Práctica dos del Danisss</h1> --Encabezado uno--
+        <h2>Tecnológico Nacional de México campus Tláhuac 2</h2> --Encabezado dos--
+    </header> --Se concluye la etiqueta de los encabezados--
+	<p>Hola wapotes</p> --Se define el espacio para un parrafo de una sola linea en el cuerpo de la página--
+	<a href="https://www.youtube.com/shorts/Xlb-JLZYTaI">Video del pelón con tremenda pantera</a> --Se referencia un espacio para un link de un video de youtube, en enlace se mostrará subrayado y al momento de ser clickeado se enviará a la página del video--
+	<ul>--Se etiqueta la inicialización de una lista de texto sin orden o desordenada--
+    <li>Manzanas</li> --Primer elemento de la lista con una etiqueta de inicialización y de terminación--
+    <li>Naranjas</li> --Segundo elemento con la misma estructura--
+    <li>Plátanos</li> --Tercer elemento y último que conserva la estructura--
+	</ul> --Se cierra la etiqueta de lista de texto desordenada--
+	<ol> --Se inicia la etiqueta de una lista de elementos ordenada con una numeración o secuencia--
+    <li>Primer elemento</li> --Primer elemento de la lista--
+    <li>Segundo elemento</li> --Segundo elemento de la lista--
+    <li>Tercer elemento</li> --Tercer elemento de la lista--
+	</ol> --Se cierra la etiqueta del espacio para la lista ordenada--
+	<img src="‪perrote.jpg" alt="Feli"> --etiqueta para insertar una imagen en el cuerpo de la página--
+	<h2>Registro de Información</h2> -- inserta Titulo--
+    <form action="procesar_formulario.php" method="POST"> --Acción para procesar la entrada de datos destinandolo a un formulario--
+        <label for="nombre">Nombre:</label><br> --Caja de texto indicando el campo de "Nombre"--
+        <input type="text" id="nombre" name="nombre" required><br><br> --Espacio para la entrada de texto que tiene como indicación un nombre propio--
+        <label for="email">Correo Electrónico:</label><br> --texto indicando la solicitud de un correo electrónico--
+        <input type="email" id="email" name="email" required><br><br> --Entrada para el espacio de correo electronico..
+        <label for="direccion">Dirección:</label><br> --Texto indicando la información solicitada "Dirección"--
+        <textarea id="direccion" name="direccion" required></textarea><br><br> --Espacio para la entrada de un texto con la información solicitada--
+        <input type="submit" value="Registrar"> --Botón destinado para el guardado de la información--
+    </form> --Término de la etiqueta formulario--
+    <footer> --Etiqueta que llama al espacio del pie de la página--
+        <p>&copy; 2024 Muack. Todos los derechos reservados.</p> --Parrafo de texto del pie de página--
+    </footer> --Terminación de los elementos del pie de página--
+</body> --Cierre de de la etiqueta de elementos que conforman el cuerpo de la página--
+</html> -- Cierre del documento HTML--
