@@ -1,0 +1,26 @@
+body {
+    background-color: black; /* Establece el color de fondo del cuerpo del documento en negro */
+    font-family: Comic Sans Ms; /* Establece la fuente del texto del cuerpo del documento en Comic Sans Ms */
+    color: white; /* Establece el color del texto del cuerpo del documento en blanco */
+}
+
+h1 {
+    color: white; /* Establece el color del texto de los encabezados h1 en blanco */
+    text-align: center; /* Centra el texto de los encabezados h1 */
+    font-family: Comic Sans Ms; /* Establece la fuente del texto de los encabezados h1 en Comic Sans Ms */
+}
+
+pre {
+    text-align: center; /* Centra el texto de los bloques de texto preformateado */
+    font-family: Comic Sans Ms; /* Establece la fuente del texto de los bloques de texto preformateado en Comic Sans Ms */
+}
+
+img {
+    width: 100%; /* Establece el ancho de todas las imágenes al 100% del ancho del contenedor */
+    height: 100%; /* Establece la altura de todas las imágenes al 100% del alto del contenedor */
+}
+
+p {
+    text-align: center; /* Centra el texto de los párrafos */
+    font-family: Comic Sans Ms; /* Establece la fuente del texto de los párrafos en Comic Sans Ms */
+}

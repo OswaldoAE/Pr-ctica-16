@@ -1,0 +1,8 @@
+imagen centrada, esquinas redondeadas 
+imagen vertical 
+personaje favorito en <h2> "Frase Icónica" <h2> en verso
+fondo otro video diferente con una liga
+la frase debe de estar en cuadro con esquinas redondeadas en linea punteada color blanco 
+fondo azul marino con transparencia 
+y letra sea del color de personaje
+sombra neón 
