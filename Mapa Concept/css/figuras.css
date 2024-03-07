@@ -1,0 +1,86 @@
+/* Estilo para la caja1 */
+.caja1 {
+    width: 400px; /* Anchura de la caja */
+    height: 150px; /* Altura de la caja */
+    background-color: mediumpurple; /* Color de fondo de la caja */
+    position: relative; /* Posición relativa */
+    margin: 500px; /* Margen exterior de la caja */
+    margin-top: 10px; /* Margen superior de la caja */
+    text-align: center; /* Alineación del texto al centro */
+    box-shadow: 5px 5px 10px rgba(251, 255, 0, 0.842); /* Sombra de la caja */
+}
+
+/* Estilo para la caja2 */
+.caja2 {
+    width: 400px; /* Anchura de la caja */
+    height: 150px; /* Altura de la caja */
+    background-color: lawngreen; /* Color de fondo de la caja */
+    color: black; /* Color del texto */
+    margin: 20px; /* Margen exterior de la caja */
+    margin-top: -450px; /* Margen superior de la caja */
+    text-align: center; /* Alineación del texto al centro */
+    box-shadow: 5px 5px 10px rgba(251, 255, 0, 0.842); /* Sombra de la caja */
+}
+
+/* Estilo para la caja3 */
+.caja3 {
+    width: 400px; /* Anchura de la caja */
+    height: 150px; /* Altura de la caja */
+    background-color: purple; /* Color de fondo de la caja */
+    margin: 900px; /* Margen exterior de la caja */
+    margin-top: -170px; /* Margen superior de la caja */
+    box-shadow: 5px 5px 10px rgba(251, 255, 0, 0.842); /* Sombra de la caja */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para la caja4 */
+.caja4 {
+    border-left: thick solid black; /* Borde izquierdo sólido */
+    height: 5%; /* Altura de la caja */
+    left: 50%; /* Posición izquierda del 50% del contenedor padre */
+    position: absolute; /* Posición absoluta */
+    margin: -1px; /* Margen exterior de la caja */
+    margin-top: -1100px; /* Margen superior de la caja */
+    margin-right: -90px; /* Margen derecho de la caja */
+    margin-left: 25px; /* Margen izquierdo de la caja */
+}
+
+/* Estilo para la caja5 */
+.caja5 {
+    border-left: thick solid black; /* Borde izquierdo sólido */
+    height: 3%; /* Altura de la caja */
+    left: 50%; /* Posición izquierda del 50% del contenedor padre */
+    position: absolute; /* Posición absoluta */
+    margin-top: -18px; /* Margen superior de la caja */
+    margin-left: -340px; /* Margen izquierdo de la caja */
+}
+
+/* Estilo para la caja6 */
+.caja6 {
+    border-left: thick solid black; /* Borde izquierdo sólido */
+    height: 3%; /* Altura de la caja */
+    left: 50%; /* Posición izquierda del 50% del contenedor padre */
+    position: absolute; /* Posición absoluta */
+    margin-top: -18px; /* Margen superior de la caja */
+    margin-left: 335px; /* Margen izquierdo de la caja */
+}
+
+/* Estilo para la línea horizontal */
+hr {
+    height: 10px; /* Altura de la línea */
+    width: 50%; /* Anchura de la línea */
+    background-color: darkred; /* Color de fondo de la línea */
+    margin-top: -1070px; /* Margen superior de la línea */
+    border: none; /* Sin borde */
+}
+
+/* Estilo para el video */
+#Video {
+    position: fixed; /* Posición fija */
+    right: 0%; /* Posición derecha del 0% del contenedor padre */
+    bottom: 0%; /* Posición inferior del 0% del contenedor padre */
+    min-width: 100%; /* Anchura mínima del video */
+    min-height: 100%; /* Altura mínima del video */
+    z-index: -1; /* Índice Z detrás de otros elementos */
+    align-items: center; /* Alinea los elementos hijos en el centro */
+}
