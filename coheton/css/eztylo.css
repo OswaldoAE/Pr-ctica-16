@@ -1,0 +1,52 @@
+/* Estilo para el fondo del cuerpo */
+body {
+    background-color: white; /* Establece el color de fondo del cuerpo como blanco */
+}
+
+/* Estilo para el triángulo */
+.triangulo {
+    width: 0; /* Establece la anchura del triángulo en 0 */
+    height: 50px; /* Establece la altura del triángulo en 50 píxeles */
+    border: 110px solid transparent; /* Define el borde del triángulo con un tamaño de 110 píxeles y transparente */
+    border-top: 0; /* Oculta el borde superior del triángulo */
+    border-bottom: 150px solid black; /* Define el borde inferior del triángulo con un tamaño de 150 píxeles y un color negro */
+    margin-left: auto; /* Centra horizontalmente el triángulo */
+    margin-right: auto; /* Centra horizontalmente el triángulo */
+    display: block; /* Hace que el triángulo sea un elemento de bloque */
+}
+
+/* Estilo para el rectángulo */
+.rectangulo {
+    width: 210px; /* Establece la anchura del rectángulo en 210 píxeles */
+    height: 300px; /* Establece la altura del rectángulo en 300 píxeles */
+    background-color: red; /* Define el color de fondo del rectángulo como rojo */
+    margin-bottom: 10px; /* Agrega un margen inferior de 10 píxeles al rectángulo */
+    display: block; /* Hace que el rectángulo sea un elemento de bloque */
+    margin-left: auto; /* Centra horizontalmente el rectángulo */
+    margin-right: auto; /* Centra horizontalmente el rectángulo */
+}
+
+/* Estilo para el círculo */
+.circulo {
+    width: 100px; /* Establece la anchura del círculo en 100 píxeles */
+    height: 100px; /* Establece la altura del círculo en 100 píxeles */
+    border-radius: 50%; /* Aplica un radio de borde del 50% para crear un círculo */
+    background-color: white; /* Define el color de fondo del círculo como blanco */
+    margin-bottom: 50px; /* Agrega un margen inferior de 50 píxeles al círculo */
+    margin-top: -300px; /* Mueve el círculo hacia arriba mediante un margen negativo */
+    margin-left: auto; /* Centra horizontalmente el círculo */
+    margin-right: auto; /* Centra horizontalmente el círculo */
+}
+
+/* Estilo para el trapecio */
+.trapecio {
+    position: relative; /* Establece la posición relativa */
+    width: 250px; /* Establece la anchura del trapecio en 250 píxeles */
+    height: 10px; /* Establece la altura del trapecio en 10 píxeles */
+    border-right: 60px solid transparent; /* Define el borde derecho del trapecio como 60 píxeles sólidos y transparentes */
+    border-left: 60px solid transparent; /* Define el borde izquierdo del trapecio como 60 píxeles sólidos y transparentes */
+    border-bottom: 70px solid purple; /* Define el borde inferior del trapecio como 70 píxeles sólidos y de color morado */
+    margin-left: 300px; /* Mueve el trapecio hacia la derecha mediante un margen izquierdo */
+    margin-top: 170px; /* Mueve el trapecio hacia abajo mediante un margen superior */
+    z-index: 2; /* Establece el índice Z del trapecio para controlar el apilamiento */
+}
