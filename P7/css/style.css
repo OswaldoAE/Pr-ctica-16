@@ -1,0 +1,59 @@
+/* Estilo para el cuerpo del documento */
+body {
+    background: #e0e0e0; /* Color de fondo */
+    justify-content: center; /* Alinea los elementos hijos en el centro del cuerpo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuente del texto */
+    overflow: hidden; /* Oculta el desbordamiento de contenido */
+}    
+
+/* Estilo para el video */
+#video {
+    position: fixed; /* Fija la posición del video en la ventana del navegador */
+    right: 0; /* Sitúa el video en la esquina derecha */
+    bottom: 0; /* Sitúa el video en la esquina inferior */
+    min-width: 100%; /* Anchura mínima del video */
+    min-height: 100%; /* Altura mínima del video */
+    width: auto; /* Anchura automática del video */
+    height: auto; /* Altura automática del video */
+    z-index: -100; /* Orden de apilamiento, detrás de otros elementos */
+    background-size: cover; /* Ajusta el tamaño del fondo */
+    overflow: hidden; /* Oculta el desbordamiento de contenido */
+}
+
+/* Estilo para la imagen dentro de la clase "rick" */
+.rick img {
+    border-radius: 10%; /* Radio de borde redondeado */
+    height: 10%; /* Altura del 10% del tamaño del contenedor */
+    width: 15%; /* Anchura del 15% del tamaño del contenedor */
+    margin-bottom: 500%; /* Margen inferior del 500% del tamaño del contenedor */
+    margin-left: 555px; /* Margen izquierdo de 555 píxeles */
+    margin-right: auto; /* Margen derecho automático */
+    margin-top: 20px; /* Margen superior de 20 píxeles */
+    box-shadow: 0 0 10px 0 rgba(9, 255, 0, 0.281), 0 0 40px 0 rgba(9, 255, 0, 0.281), 0 0 80px 0 rgba(9, 255, 0, 0.281); /* Sombra delimitada */
+}
+
+/* Estilo para la clase "frase" */
+.frase {
+    text-align: center; /* Alinea el texto al centro */
+    margin: auto; /* Margen automático */
+    position: absolute; /* Posición absoluta con respecto al contenedor padre */
+    top: 75%; /* Sitúa la parte superior en el 75% de la altura del contenedor padre */
+    left: 50%; /* Sitúa la izquierda en el 50% del ancho del contenedor padre */
+    transform: translate(-50%, -50%); /* Transforma para centrar vertical y horizontalmente */
+    background: rgba(255, 255, 255, 0.1); /* Fondo con opacidad */
+    border-radius: 15px; /* Radio de borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    max-width: 300px; /* Anchura máxima */
+    backdrop-filter: blur(10px); /* Aplica desenfoque */
+    box-shadow: 0 0 10px 0 rgba(9, 255, 0, 0.281), 0 0 40px 0 rgba(9, 255, 0, 0.281), 0 0 80px 0 rgba(9, 255, 0, 0.281); /* Sombra delimitada */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Borde sólido */
+}
+
+/* Estilo para el texto dentro de la clase "frase" */
+.frase pre {
+    color: skyblue; /* Color del texto */
+    margin: 0; /* Elimina el margen */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Sombra de texto */
+}
