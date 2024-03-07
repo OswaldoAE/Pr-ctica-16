@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento, indica que es un documento HTML -->
+<html lang="es"> <!-- Inicio del elemento html con especificación del idioma español -->
+<head> <!-- Inicio de la sección de encabezado del documento -->
+  <meta charset="UTF-8"> <!-- Configuración de la codificación de caracteres a UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista para dispositivos móviles -->
+  <title>GALERIA DE PACKS</title> <!-- Título de la página -->
+</head> <!-- Fin de la sección de encabezado del documento -->
+<body> <!-- Inicio del cuerpo del documento -->
+<header style="background-color: black; color: white; text-align: center;"> <!-- Encabezado de la página con estilo de fondo, color de texto y alineación centrada -->
+  <h1>Galeria de fotupassss</h1> <!-- Título principal de la página -->
+	<center> <!-- Inicio de la alineación centrada -->
+      <a href="https://www.youtube.com/watch?v=n7hpegpYyA8"> <!-- Enlace a un video de YouTube -->
+        <img src="IMGONE.JPG" alt="IMGONE" width="200"> <!-- Imagen con enlace, descripción alternativa y ancho especificado -->
+      </a><br> <!-- Salto de línea -->
+      <p>Capture este bonito paisaje en Amsterdam la ciudad del vicio UwU</p> <!-- Párrafo de texto descriptivo -->
+      <a href="https://www.youtube.com/watch?v=xvx8UtrVOSQ"> <!-- Enlace a otro video de YouTube -->
+        <img src="gato.jpg" alt="gato" width="200"> <!-- Imagen con enlace, descripción alternativa y ancho especificado -->
+      </a><br> <!-- Salto de línea -->
+      <p>Los michis pueden calmar el estres y saben cuando estas triste</p> <!-- Párrafo de texto descriptivo -->
+      <a href="https://www.youtube.com/watch?v=LrW6mG-PwZQ"> <!-- Enlace a otro video de YouTube -->
+        <img src="CAMARA.jpg" alt="CAMARA" width="200"> <!-- Imagen con enlace, descripción alternativa y ancho especificado -->
+      </a><br> <!-- Salto de línea -->
+      <p>Las camaras digitales pueden guardar distintos formatos de imagenes</p> <!-- Párrafo de texto descriptivo -->
+<center> <!-- Fin de la alineación centrada -->
+</body> <!-- Fin del cuerpo del documento -->
+</html> <!-- Fin del documento HTML -->
