@@ -1,0 +1,55 @@
+body, html {
+    height: 100%; /* Establece el alto del cuerpo y el html al 100% del alto de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    display: flex; /* Utiliza un modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.rounded-image {
+  border-radius: 100%; /* Establece un radio de borde para hacer la imagen redonda */
+}
+
+.video-container {
+    position: fixed; /* Establece la posición fija para el contenedor de video */
+    top: 0; /* Coloca el contenedor de video en la parte superior */
+    left: 0; /* Coloca el contenedor de video en la parte izquierda */
+    width: 100%; /* Establece el ancho del contenedor de video al 100% del ancho de la ventana */
+    height: 100%; /* Establece el alto del contenedor de video al 100% del alto de la ventana */
+    overflow: hidden; /* Oculta el desbordamiento del contenido */
+    z-index: -1; /* Establece la posición z-index detrás del contenido principal */
+}
+
+#video-background {
+    position: absolute; /* Establece la posición absoluta para el video de fondo */
+    top: 0; /* Coloca el video de fondo en la parte superior */
+    left: 0; /* Coloca el video de fondo en la parte izquierda */
+    width: 100%; /* Establece el ancho del video de fondo al 100% del ancho del contenedor */
+    height: 100%; /* Establece el alto del video de fondo al 100% del alto del contenedor */
+    object-fit: cover; /* Ajusta el tamaño del video de fondo para cubrir todo el contenedor */
+}
+
+.row {
+  width: 600px; /* Establece el ancho máximo para la fila */
+  position: rigth; /* Establece la posición de la fila a la derecha (posiblemente debería ser "right") */
+  background-color: rgb(138, 43, 226,0.5); /* Establece el color de fondo de la fila con transparencia */
+  border: 7px solid rgb(255, 255, 255,); /* Establece un borde sólido para la fila */
+  backdrop-filter: blur(20px); /* Aplica un efecto de desenfoque al fondo de la fila */
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2); /* Agrega una sombra a la fila */
+  color: #fff; /* Establece el color de texto de la fila */
+  border-radius: 10px; /* Establece un radio de borde para la fila */
+  padding: 30px 40px; /* Establece el relleno interior de la fila */
+}
+
+.btn-primary {
+    background-color: blueviolet; /* Establece el color de fondo del botón primario */
+    border: 3px dashed white; /* Establece un borde punteado para el botón primario */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Establece la fuente del botón primario */
+}
+
+.text-center {
+    color: paleturquoise; /* Establece el color de texto del texto centrado */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Establece la fuente del texto centrado */
+}
+
